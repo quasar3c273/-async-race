@@ -5,7 +5,12 @@
     "noImplicitAny": true,
     "strict": true,
     "target": "ES2020",
-    "moduleResolution": "Node"
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true
+  },
+  "ts-node": {
+    "esm": true
   },
 
   "include": ["src/**/*"],
