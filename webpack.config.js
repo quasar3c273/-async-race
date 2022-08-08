@@ -78,7 +78,7 @@ const config = {
       extensions: 'ts'
     }),
     new FaviconsWebpackPlugin({
-      logo: './src/assets/shopping-cart.svg',
+      logo: './src/assets/car-sprite.svg',
       favicons: {
         icons: {
           android: false,
